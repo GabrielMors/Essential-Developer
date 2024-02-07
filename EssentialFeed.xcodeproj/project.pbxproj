@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		C47DFCE82B6B9FF7008D4506 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47DFCE72B6B9FF7008D4506 /* RemoteFeedLoaderTests.swift */; };
 		C47DFCEC2B7327A7008D4506 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47DFCEB2B7327A7008D4506 /* RemoteFeedLoader.swift */; };
+		C47DFCEE2B733001008D4506 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47DFCED2B733001008D4506 /* FeedLoader.swift */; };
 		C4B30D392B63B6E3008A3CED /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = C4B30D382B63B6E3008A3CED /* EssentialFeed.docc */; };
 		C4B30D3F2B63B6E3008A3CED /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B30D342B63B6E3008A3CED /* EssentialFeed.framework */; };
 		C4B30D442B63B6E3008A3CED /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B30D432B63B6E3008A3CED /* EssentialFeedTests.swift */; };
 		C4B30D452B63B6E3008A3CED /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B30D372B63B6E3008A3CED /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4B30D4F2B63B726008A3CED /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B30D4E2B63B726008A3CED /* FeedItem.swift */; };
-		C4B30D512B63B8BB008A3CED /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B30D502B63B8BB008A3CED /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +30,13 @@
 /* Begin PBXFileReference section */
 		C47DFCE72B6B9FF7008D4506 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		C47DFCEB2B7327A7008D4506 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		C47DFCED2B733001008D4506 /* FeedLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedLoader.swift; path = EssentialFeed/FeedLoader.swift; sourceTree = SOURCE_ROOT; };
 		C4B30D342B63B6E3008A3CED /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B30D372B63B6E3008A3CED /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		C4B30D382B63B6E3008A3CED /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
 		C4B30D3E2B63B6E3008A3CED /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B30D432B63B6E3008A3CED /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		C4B30D4E2B63B726008A3CED /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
-		C4B30D502B63B8BB008A3CED /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				C4B30D4E2B63B726008A3CED /* FeedItem.swift */,
-				C4B30D502B63B8BB008A3CED /* FeedLoader.swift */,
+				C47DFCED2B733001008D4506 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -223,8 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47DFCEC2B7327A7008D4506 /* RemoteFeedLoader.swift in Sources */,
-				C4B30D512B63B8BB008A3CED /* FeedLoader.swift in Sources */,
 				C4B30D4F2B63B726008A3CED /* FeedItem.swift in Sources */,
+				C47DFCEE2B733001008D4506 /* FeedLoader.swift in Sources */,
 				C4B30D392B63B6E3008A3CED /* EssentialFeed.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
